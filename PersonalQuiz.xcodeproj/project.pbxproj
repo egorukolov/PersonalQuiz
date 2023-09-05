@@ -56,15 +56,55 @@
 		56E047872AA372DF0010D2F8 /* PersonalQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				56E047882AA372DF0010D2F8 /* AppDelegate.swift */,
-				56E0478A2AA372DF0010D2F8 /* SceneDelegate.swift */,
-				56E0478C2AA372DF0010D2F8 /* ViewController.swift */,
-				56E0478E2AA372DF0010D2F8 /* Main.storyboard */,
-				56E047912AA372E10010D2F8 /* Assets.xcassets */,
-				56E047932AA372E10010D2F8 /* LaunchScreen.storyboard */,
-				56E047962AA372E10010D2F8 /* Info.plist */,
+				56E0479D2AA37DC30010D2F8 /* ViewControllers */,
+				56E047A02AA381160010D2F8 /* Models */,
+				56E0479E2AA37FD00010D2F8 /* Storyboards */,
+				56E0479C2AA37CB50010D2F8 /* SupportingFiles */,
+				56E0479F2AA37FED0010D2F8 /* Sources */,
 			);
 			path = PersonalQuiz;
+			sourceTree = "<group>";
+		};
+		56E0479C2AA37CB50010D2F8 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				56E047882AA372DF0010D2F8 /* AppDelegate.swift */,
+				56E0478A2AA372DF0010D2F8 /* SceneDelegate.swift */,
+				56E047962AA372E10010D2F8 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		56E0479D2AA37DC30010D2F8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				56E0478C2AA372DF0010D2F8 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		56E0479E2AA37FD00010D2F8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				56E0478E2AA372DF0010D2F8 /* Main.storyboard */,
+				56E047932AA372E10010D2F8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		56E0479F2AA37FED0010D2F8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				56E047912AA372E10010D2F8 /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		56E047A02AA381160010D2F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -301,9 +341,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ukolovea.PersonalQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,9 +371,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ukolovea.PersonalQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

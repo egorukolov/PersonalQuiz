@@ -11,9 +11,11 @@
 		565F8AC92AAC6F5C0028E908 /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F8AC82AAC6F5C0028E908 /* ResponseType.swift */; };
 		565F8ACB2AAC704B0028E908 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F8ACA2AAC704B0028E908 /* Answer.swift */; };
 		565F8ACD2AAC70B30028E908 /* AnimalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F8ACC2AAC70B30028E908 /* AnimalType.swift */; };
+		56D4B0D72AD2C808003E3BCD /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D4B0D62AD2C808003E3BCD /* QuestionsViewController.swift */; };
+		56D4B0D92AD2C818003E3BCD /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D4B0D82AD2C818003E3BCD /* ResultsViewController.swift */; };
 		56E047892AA372DF0010D2F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E047882AA372DF0010D2F8 /* AppDelegate.swift */; };
 		56E0478B2AA372DF0010D2F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E0478A2AA372DF0010D2F8 /* SceneDelegate.swift */; };
-		56E0478D2AA372DF0010D2F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E0478C2AA372DF0010D2F8 /* ViewController.swift */; };
+		56E0478D2AA372DF0010D2F8 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E0478C2AA372DF0010D2F8 /* IntroductionViewController.swift */; };
 		56E047902AA372DF0010D2F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E0478E2AA372DF0010D2F8 /* Main.storyboard */; };
 		56E047922AA372E10010D2F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E047912AA372E10010D2F8 /* Assets.xcassets */; };
 		56E047952AA372E10010D2F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E047932AA372E10010D2F8 /* LaunchScreen.storyboard */; };
@@ -24,10 +26,12 @@
 		565F8AC82AAC6F5C0028E908 /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
 		565F8ACA2AAC704B0028E908 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 		565F8ACC2AAC70B30028E908 /* AnimalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalType.swift; sourceTree = "<group>"; };
+		56D4B0D62AD2C808003E3BCD /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		56D4B0D82AD2C818003E3BCD /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		56E047852AA372DF0010D2F8 /* PersonalQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E047882AA372DF0010D2F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56E0478A2AA372DF0010D2F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		56E0478C2AA372DF0010D2F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56E0478C2AA372DF0010D2F8 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		56E0478F2AA372DF0010D2F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56E047912AA372E10010D2F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56E047942AA372E10010D2F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,7 +90,9 @@
 		56E0479D2AA37DC30010D2F8 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				56E0478C2AA372DF0010D2F8 /* ViewController.swift */,
+				56E0478C2AA372DF0010D2F8 /* IntroductionViewController.swift */,
+				56D4B0D62AD2C808003E3BCD /* QuestionsViewController.swift */,
+				56D4B0D82AD2C818003E3BCD /* ResultsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -147,7 +153,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					56E047842AA372DF0010D2F8 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -190,10 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56E0478D2AA372DF0010D2F8 /* ViewController.swift in Sources */,
+				56E0478D2AA372DF0010D2F8 /* IntroductionViewController.swift in Sources */,
 				562E10A72AA8D69A00319850 /* Question.swift in Sources */,
+				56D4B0D72AD2C808003E3BCD /* QuestionsViewController.swift in Sources */,
 				56E047892AA372DF0010D2F8 /* AppDelegate.swift in Sources */,
 				565F8ACB2AAC704B0028E908 /* Answer.swift in Sources */,
+				56D4B0D92AD2C818003E3BCD /* ResultsViewController.swift in Sources */,
 				56E0478B2AA372DF0010D2F8 /* SceneDelegate.swift in Sources */,
 				565F8AC92AAC6F5C0028E908 /* ResponseType.swift in Sources */,
 				565F8ACD2AAC70B30028E908 /* AnimalType.swift in Sources */,
@@ -258,6 +266,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -318,6 +327,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
